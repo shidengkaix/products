@@ -2,7 +2,7 @@ import os
 #讀取檔案
 def read_file(filename):
 		products = []
-		with open (filename,'r'，encoding='utf-8') as f:
+		with open (filename,'r'，encoding = 'utf-8') as f:
 				for line in f:
 					if '商品,價格' in line:
 							continue
